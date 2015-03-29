@@ -44,6 +44,8 @@ GEM
     coffee-script-source (1.9.1)
     erubis (2.7.0)
     execjs (2.4.0)
+    google-webfonts (0.2.0)
+      actionpack (>= 3.0.0)
     haml (4.0.6)
       tilt
     haml-rails (0.9.0)
@@ -145,6 +147,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.4)
   coffee-rails (~> 4.0.0)
+  google-webfonts
   haml-rails (~> 0.9)
   jbuilder (~> 2.0)
   jquery-rails

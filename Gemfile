@@ -16,6 +16,7 @@ gem "haml-rails", "~> 0.9"
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'therubyracer'
 
+gem 'google-webfonts'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

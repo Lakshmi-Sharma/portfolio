@@ -1,8 +1,45 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  height: 100%;
+  margin: 0%;
+}
+
+section{
+  height: 100vh;
+  min-height:100%;
+  position:relative;
+}
+
+section:nth-child(1) {
+  background: linear-gradient(215deg, transparent, #05d7d9) 0px 0px,
+              linear-gradient(215deg, transparent, #05d7d9) 0px 0px,
+              linear-gradient(90deg, white, #05d7d9) 0px 0px;
+  background-size: 100px 100px, 200px 200px;
+  *{
+    color: white;
+  }
+}
+.container-fluid{
+  height: 100vh;
+  background: linear-gradient(90deg, transparent, transparent 50%, rgba(5,215,217, 1));
+}
+
 .main-block{
   width: 80%;
-  margin-top: 5%;
+  margin-top: 4%;
   padding-top: 2%;
+  font-family: Josefin Slab;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#display-text{
+  font-family: Seaweed Script;
+  font-size: 60px;
+}
+
+.self-image{
+  -webkit-clip-path: circle(50% at 50% 50%);
 }
